@@ -56,3 +56,6 @@ images: ['us-docker.pkg.dev/$PROJECT_ID/asl-artifact-repo/trainer_image_covertyp
 
 # This is required since the pipeline run overflows the default timeout
 timeout: 10800s
+
+options:
+  logging: CLOUD_LOGGING_ONLY
